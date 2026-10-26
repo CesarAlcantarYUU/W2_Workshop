@@ -11,4 +11,6 @@ for payments I would have payment_id, amount, paymentdate
 for walks i would have: walk_id, walkdate, walktime, dog_id
 c) customers to dogs and payments. There would only be 1 customer for multiple dogs. Then Dogs to walks. Also depending on how long the walk is walks could be connected to payments because of the walk is longer then the payment would be more.
 d) multiple dogs and multiple walks.
-e)
+4. 
+a) similarities are that we both have a walks and a dogs table. We also both have a customers table, except Joshuas table is names "clients" and Cesars is names "Customers". We also have the same FK and PK.
+b) A difference is that Cesar has a Payments table and Joshua just has a clients, dogs, and walks table. The pros of having a 4th table for payments is that you can keep track of receipts from your clients. A con of not having a payments table is that you can forget how much you previously charged a client for future references. 
